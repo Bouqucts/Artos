@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import { Dimensions, FlatList, RefreshControl, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { GlassView } from 'expo-glass-effect';
+import { NativeSurface as GlassView } from '@/components/NativeSurface';
 import { MenuView } from '@expo/ui/community/menu';
 import { supabase } from '@/lib/supabase';
 
